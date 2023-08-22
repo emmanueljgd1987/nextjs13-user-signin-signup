@@ -81,7 +81,7 @@ export default function RegisterForm() {
         </span>
         <LoadingButton
           loading={store.requestLoading}
-          textColor="text-ct-blue-600"
+          textColor="text-slate-600"
         >
           Registrar
         </LoadingButton>

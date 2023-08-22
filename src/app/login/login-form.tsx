@@ -74,7 +74,7 @@ export default function LoginForm() {
 
         <div className="text-right">
           <Link href="#" className="">
-            Forgot Password?
+            ¿Olvidaste tu contraseña?
           </Link>
         </div>
         <LoadingButton
@@ -84,9 +84,9 @@ export default function LoginForm() {
           Login
         </LoadingButton>
         <span className="block">
-          Need an account?{" "}
+          ¿No estas regisrado?{" "}
           <Link href="/register" className="text-ct-blue-600">
-            Sign Up Here
+            Registrate aqui!!
           </Link>
         </span>
       </form>

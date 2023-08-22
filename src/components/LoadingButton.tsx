@@ -11,7 +11,7 @@ type LoadingButtonProps = {
 
 export const LoadingButton: React.FC<LoadingButtonProps> = ({
   textColor = "text-white",
-  btnColor = "bg-ct-yellow-600",
+  btnColor = "bg-slate-300",
   children,
   loading = false,
 }) => {
